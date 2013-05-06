@@ -1,0 +1,61 @@
+By.id: ext-comp-1003&Поле ввода логина stargate
+By.id: ext-comp-1004&Поле ввода пароля stargate
+By.id: ext-gen31&Кнопка войти stargate
+By.xpath: //div[contains(@class,'x-trigger-wrap-focus')]/img&Выпадающий список IMG
+By.xpath: //input[contains(@class,'x-form-focus')]&Поле Input
+By.xpath: //select[contains(@class,'x-form-focus')]&Выпадающий список Select
+By.xpath: //textarea[contains(@class, 'x-form-focus')]&ПолеTextArea
+By.xpath: //a[@href='/stargate/workspace/admanagement/']&Пункт меню Объявления stargate
+By.xpath: //a[@href='/stargate/?logout=true']&Ссылка выход stargate
+By.xpath: //a[@href='/stargate/workspace/admanagement/catalog/']/span[contains(text(),'Каталог объявлений')]&Подпункт меню Каталог объявлений stargate 
+By.xpath: //a[@href='/stargate/workspace/admanagement/premium/']/span[contains(text(),'Создать премиум')]&Подпункт меню Создать премиум stargate
+By.xpath: //a[@class='x-tree-node-anchor']/span[contains(text(),'Авто и мото')]&Пункт меню Авто и мото stargate
+By.xpath: //a[@class='x-tree-node-anchor']/span[contains(text(),'Легковые автомобили')]&Подпункт меню Легковые автомобили stargate
+By.xpath: //a[@class='x-tree-node-anchor']/span[contains(text(),'Автомобили с пробегом')]&Подпункт меню Автомобили с пробегом stargate
+By.xpath: //a[@class='x-tree-node-anchor']/span[contains(text(),'авто с пробегом')]&Подпункт меню авто с пробегом stargate
+By.xpath: //a[@class='x-tree-node-anchor']/span[contains(text(),'Отдам даром')]&Пункт меню Отдам даром stargate
+By.xpath: //ul[@class='x-tree-root-ct x-tree-lines']//ul/li[25]/ul//a[@class='x-tree-node-anchor']/span[contains(text(),'Отдам даром')]&Подпункт меню Отдам даром stargate
+By.xpath: //button[@class='x-btn-text icon-plus' and contains(text(),'Создать')]&Кнопка Создать обычное объявление stargate
+By.xpath: //span[@class='x-window-header-text' and contains(text(),'Редактирование')]&Заголовок окна выбора региона stargate
+By.xpath: //fieldset[@class=' x-fieldset x-fieldset-noborder x-form-label-left']//input[2]&Поле ввода региона окна выбора региона stargate	
+By.xpath: //div[@class='x-window-footer']//button[contains(text(),'Сохранить')]&Кнопка сохранить окна выбора региона stargate
+By.xpath: //div[@class='x-panel-bbar x-panel-bbar-noborder']//button[contains(text(),'Сохранить')]&Кнопка сохранить премиум объявление stargate
+By.xpath: //div[@class='x-tab-panel-footer']//button[contains(text(),'Сохранить')]&Кнопка сохранить обычное объявление stargate
+By.xpath: //div[@class='x-window x-window-plain x-window-dlg']//button[contains(text(),'OK')]&Кнопка ОК после создания премиума stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Регион')]&Поле ввода регион stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Текст объявления')]&Поле ввода текст объявления stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Цена')]&Поле ввода цены stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Валюта')]&Поле ввода валюты stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Владелец объявления')]&Поле ввода email владельца объявления stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Марка')]&Поле ввода марки stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Модель')]&Поле ввода модели stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Год выпуска')]&Поле ввода года выпуска stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Тип кузова')]&Поле ввода типа кузова stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Тип трансмиссии')]&Поле ввода типа трансмиссии stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Статус модерации')]&Поле ввода статуса модерации stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Активность объявления')]&Поле ввода статуса активности объявления stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Заголовок')]&Поле ввода заголовка stargate
+By.xpath: //div[@class='x-grid3-cell-inner x-grid3-col-title' and contains(text(),'Текст')]&Поле ввода текста(Отдам даром) stargate
+By.xpath: //div[contains(text(),'Отдам даром')]&Поле с текстом Отдам даром stargate
+By.xpath: //div[contains(text(),'Авто и мото -> Легковые автомобили -> Автомобили с пробегом')]&Поле с текстом Авто и мото -> Легковые автомобили -> Автомобили с пробегом stargate
+By.xpath: //td[contains(@class,'x-grid3-cell-selected')]&Div ввода данных при создании объявлений stargate
+By.id: a_login& Ссылка вход Irr 
+By.xpath: //div[@class='popupRegions']&Заголовок окна выбора региона Irr 
+By.xpath: //div[@class='button-style btn-a']/a&Кнопка ОК окна выбора региона Irr
+By.xpath: //div[@id='popup-wrap']//input[@name='password']&Поле ввода пароля Irr
+By.xpath: //div[@id='popup-wrap']//input[@class='login']&Поля ввода логина Irr
+By.xpath: //div[@id='popup-wrap']//a[@class='loginFormSubmit']&Кнопка войти Irr
+By.xpath: //a[@id='load_user_ads_counter']/span[2]&Ссылка мой кабинет Irr
+By.xpath: //div[@id='block_links_lk']/ul/li/a&Ссылка мои объявления Irr
+By.id: checkAll&Чекбокс выбрать все IrrLK
+By.id: groupActionDeleteSelected&Ссылка удалить все IrrLK
+By.id: groupActionDeactivateSelected&Ссылка деактивировать все IrrLK
+By.xpath: //div[@id='minWidth']//li[@class='all'][1]/div[2]&Текст все статусы IrrLK
+By.xpath: //div[@id='minWidth']//li[2]/a/div&Ссылка активные IrrLK
+By.xpath: //div[@id='minWidth']//li[3]/a/div&Ссылка неактивные IrrLK
+By.xpath: //div[@class='b-blockInf'][2]//li[@class='all']/div[2]&Текст все категории IrrLK
+By.xpath: //div[@class='b-blockInf'][2]//a[@href='/myadverts/cars/']/div&Ссылка Авто и мото(блок статус) IrrLK
+By.xpath: //div[@class='b-blockInf'][2]//a[@href='/myadverts/cars/passenger/']/div&Ссылка легковые авто(блок статус) IrrLK
+By.xpath: //div[@class='b-blockInf'][2]//a[@href='/myadverts/cars/passenger/used/']/div&Ссылка авто с пробегом(блок статус) IrrLK
+By.xpath: //div[@class='b-blockInf'][2]//a[@href='/myadverts/otdam-darom/']/div&Ссылка отдам даром(блок статус) IrrLK
+By.id: logout&Ссылка выход IrrLK

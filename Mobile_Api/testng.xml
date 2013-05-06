@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+   <parameter name="sBaseHost" value="irr.ru"/>
+   <parameter name="sLogin" value="timon2181"/> 
+   <parameter name="sPassword" value="retry2"/> 
+   <parameter name="sIdAdvert" value="257190269"/> 
+   <parameter name="sParam1" value="currency=RUR/"/>
+   <parameter name="sParam2" value="{make=BMW, model=116, car-year=2010, bodytype=внедорожник, transmittion=механическая}"/> 
+   <parameter name="sVideoUrl" value="http://www.youtube.com/watch?v=AMpZ0TGjbWE"/> 
+   <parameter name="sNumberDays" value="7"/>
+   <parameter name="bAuthFlag" value="true"/>
+   <parameter name="bApp_token" value="true"/>
+   <parameter name="sNewPassword" value="retry2"/>
+   <parameter name="sParam" value="{region=russia/, search_string=карьер}"/>
+   <parameter name="sCategory" value="/"/> 
+   <parameter name="sTypeApi" value="mobile_api"/> 
+   <parameter name="sRegion" value="russia/krasnoyarskiy-kray/birilyusskiy-r_n/"/> 
+  <groups>
+    <run>
+      <include name="AutoTest_18"/>
+    </run>
+  </groups>
+    <classes>
+      <class name="pack_test.Test_Mobile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

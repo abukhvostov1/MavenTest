@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/cssparser-0.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/guava-12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/htmlunit-2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/htmlunit-core-js-2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/httpclient-4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/httpcore-4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/httpmime-4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/jcommander-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/junit-dep-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/nekohtml-1.9.15.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/netty-3.2.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/operadriver-0.14.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/selenium-java-2.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/selenium-java-2.25.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/testng-6.0.1-nobsh-noguice.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/webbit-0.4.8-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/xercesImpl-2.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Java/selenium-java-2.25.0/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

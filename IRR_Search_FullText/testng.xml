@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Test">
+		<parameter name="sImageEnable" value="2" />
+		<parameter name="sUrl" value="http://master.prontosoft.by" />
+		<parameter name="sParam1" value="bmw" />
+		<!--parameter name="sParam2" value="обмен ауди а6" /-->
+		<!--parameter name="sParam3" value="Авто и мото" /-->
+		<groups>
+			<run>
+				<include name="AutoTest_12" />
+			</run>
+		</groups>
+		<classes>
+			<class name="pack_test.Test_Irr_Search_FullTextTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
