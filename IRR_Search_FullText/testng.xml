@@ -3,13 +3,13 @@
 <suite name="Suite" parallel="none">
 	<test name="Test">
 		<parameter name="sImageEnable" value="2" />
-		<parameter name="sUrl" value="http://master.prontosoft.by" />
-		<parameter name="sParam1" value="bmw" />
-		<!--parameter name="sParam2" value="обмен ауди а6" /-->
-		<!--parameter name="sParam3" value="Авто и мото" /-->
+		<parameter name="sUrl" value="http://russia.master.prontosoft.by" />
+		<parameter name="sParam1" value="Газ" />
+		<parameter name="sParam2" value="обмен ауди а6" />
+		<parameter name="sParam3" value="Авто и мото" />
 		<groups>
 			<run>
-				<include name="AutoTest_12" />
+				<include name="AutoTest_11" />
 			</run>
 		</groups>
 		<classes>

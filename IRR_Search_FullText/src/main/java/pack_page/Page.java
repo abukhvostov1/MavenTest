@@ -278,7 +278,7 @@ public abstract class Page {
 		}
 		return wTemp;
 	}
-	
+
 	// Проверка выбран или нет элемент
 	protected void CheckIsSelectedElement(final WebElement wElement,final Boolean bResult, String sName) throws ExceptFailTest
 	{
