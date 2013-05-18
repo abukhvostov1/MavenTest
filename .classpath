@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="A7/src/test/java"/>
+	<classpathentry kind="src" path="Front1/src/main/java"/>
+	<classpathentry kind="src" path="IRR_128/src/main/java"/>
+	<classpathentry kind="src" path="IRR_128/src/test/java"/>
+	<classpathentry kind="src" path="IRR_Count_LKOP/src/main/java"/>
+	<classpathentry kind="src" path="IRR_Count_LKOP/src/test/java"/>
+	<classpathentry kind="src" path="IRR_Search_FullText/src/main/java"/>
+	<classpathentry kind="src" path="IRR_Search_FullText/src/test/java"/>
+	<classpathentry kind="src" path="Mobile_Api/src/main/java"/>
+	<classpathentry kind="src" path="Mobile_Api/src/test/java"/>
+	<classpathentry kind="src" path="YandexTriangle/src/main/java"/>
+	<classpathentry kind="src" path="YandexTriangle/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="YandexTriangle/target/test-classes"/>
+</classpath>
